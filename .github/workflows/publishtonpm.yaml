@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: ${{ matrix.registry-url }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
       - name: 'Installing deps'
         run: pnpm i
       - name: 'Build'

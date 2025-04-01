@@ -1,0 +1,29 @@
+{
+  "name": "persistent-state-react",
+  "version": "0.0.1",
+  "description": "A react package to manage persistant storage w localstorage and hook",
+  "keywords": [
+    "localstorage",
+    "persistent",
+    "react",
+    "ts",
+    "typescript",
+    "state",
+    "state-management"
+  ],
+  "homepage": "https://github.com/maifeeulasad/persistent-state-react#readme",
+  "bugs": {
+    "url": "https://github.com/maifeeulasad/persistent-state-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maifeeulasad/persistent-state-react.git"
+  },
+  "license": "MIT",
+  "author": "Maifee Ul Asad <maifeeulasad@gmail.com>",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

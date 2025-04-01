@@ -27,6 +27,6 @@ jobs:
       - name: 'Build'
         run: pnpm rollup
       - name: 'Publish'
-        run: pnpm publish
+        run: pnpm -r publish --no-git-checks --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

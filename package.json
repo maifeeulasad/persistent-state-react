@@ -24,7 +24,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "peerDependencies": {
     "@types/react": "^18.0.9",

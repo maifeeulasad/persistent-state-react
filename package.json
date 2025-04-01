@@ -1,46 +1,46 @@
 {
-  "name": "persistent-state-react",
-  "version": "0.0.1",
-  "description": "A react package to manage persistant storage w localstorage and hook",
-  "keywords": [
-    "localstorage",
-    "persistent",
-    "react",
-    "ts",
-    "typescript",
-    "state",
-    "state-management"
-  ],
-  "homepage": "https://github.com/maifeeulasad/persistent-state-react#readme",
-  "bugs": {
-    "url": "https://github.com/maifeeulasad/persistent-state-react/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maifeeulasad/persistent-state-react.git"
-  },
-  "license": "MIT",
-  "author": "Maifee Ul Asad <maifeeulasad@gmail.com>",
-  "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
-  },
-  "peerDependencies": {
-    "@types/react": "^18.0.9",
-    "react": "^18.1.0"
-  },
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^28.0.3",
-    "@rollup/plugin-node-resolve": "^16.0.1",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^12.1.2",
-    "rollup": "^4.38.0",
-    "rollup-plugin-dts": "^6.2.1",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "tslib": "^2.8.1",
-    "typescript": "^5.8.2"
-  }
+	"name": "persistent-state-react",
+	"version": "0.0.1",
+	"description": "A react package to manage persistant storage w localstorage and hook",
+	"keywords": [
+		"localstorage",
+		"persistent",
+		"react",
+		"ts",
+		"typescript",
+		"state",
+		"state-management"
+	],
+	"homepage": "https://github.com/maifeeulasad/persistent-state-react#readme",
+	"bugs": {
+		"url": "https://github.com/maifeeulasad/persistent-state-react/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/maifeeulasad/persistent-state-react.git"
+	},
+	"license": "MIT",
+	"author": "Maifee Ul Asad <maifeeulasad@gmail.com>",
+	"type": "module",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"rollup": "rollup -c --bundleConfigAsCjs"
+	},
+	"peerDependencies": {
+		"@types/react": "^18.0.9",
+		"react": "^18.1.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^28.0.3",
+		"@rollup/plugin-node-resolve": "^16.0.1",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^12.1.2",
+		"rollup": "^4.38.0",
+		"rollup-plugin-dts": "^6.2.1",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"tslib": "^2.8.1",
+		"typescript": "^5.8.2"
+	}
 }

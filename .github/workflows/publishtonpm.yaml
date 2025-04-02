@@ -24,8 +24,6 @@ jobs:
           version: 9
       - name: 'Installing deps'
         run: pnpm i
-      - name: 'Build'
-        run: pnpm rollup
       - name: 'Publish'
         run: npm publish
         env:

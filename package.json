@@ -27,7 +27,7 @@
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"rollup": "rollup -c --bundleConfigAsCjs --configPlugin typescript",
-		"prepublish": "npm run rollup"
+		"prepublish": "pnpm rollup"
 	},
 	"peerDependencies": {
 		"@types/react": "^18.0.9",

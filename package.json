@@ -26,7 +26,7 @@
 	"module": "dist/esm/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"rollup": "rollup -c --bundleConfigAsCjs"
+		"rollup": "rollup -c --bundleConfigAsCjs --configPlugin typescript"
 	},
 	"peerDependencies": {
 		"@types/react": "^18.0.9",

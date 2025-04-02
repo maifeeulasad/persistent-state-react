@@ -15,7 +15,7 @@ npm i persistent-state-react
 🎯 Or, directly add it to your `package.json`:
 
 ```json
-"persistent-state-react": "^0.0.1"
+"persistent-state-react": "^1.0.0"
 ```
 
 ---

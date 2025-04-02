@@ -1,6 +1,6 @@
 {
 	"name": "persistent-state-react",
-	"version": "0.0.7",
+	"version": "1.0.0",
 	"description": "A react package to manage persistant storage w localstorage and hook",
 	"keywords": [
 		"localstorage",
